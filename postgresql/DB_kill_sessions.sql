@@ -1,0 +1,1 @@
+select pg_terminate_backend(pid) from pg_stat_activity where datname = 'pgs_nso_dev' and usename = 'zbx_monitor';
